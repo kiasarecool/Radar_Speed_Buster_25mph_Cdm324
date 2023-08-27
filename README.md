@@ -16,4 +16,10 @@ If the calculated speed exceeds the threshold, flash the lights or take other ac
 
 You will need to calibrate the relationship between the frequency of the radar sensor's output and the actual speed. The calibration might require experimentation or consultation of additional documentation related to the Cdm324 sensor.
 
+
+
 Remember to ensure that your NeoPixels are properly powered. They can draw a considerable amount of current, especially when all LEDs are on, so make sure to use an appropriate power supply and follow the connection guidelines for your specific NeoPixel rings.
+
+You will need to make an amp/filter for the cdm324 if you want reliable results.
+
+Arduino btw
